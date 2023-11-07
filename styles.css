@@ -96,6 +96,16 @@ button{
     -ms-transform: translateX(13px);
     transform: translateX(13px);
   }
+
+  .Pdexs{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+  .entry-box{
+    margin-bottom: 2rem;
+  }
   
  
   
