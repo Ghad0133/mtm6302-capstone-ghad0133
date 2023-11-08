@@ -1,112 +1,60 @@
 body{
-    background-color: #f5ee23;
+  background-color: #f5ee23;
 }
 
 .title{
-text-align: center;
+  text-align: center;
 }
 .container{
-   position: relative;
-   left:44%;
+  position: relative;
+  left:44%;
 
 }
 button{
-    background-color: #3b4cca;
-    color: black;
-    border-radius: 25%;
-    font-size: 5rem;
+  background-color: #3b4cca;
+  color: black;
+  border-radius: 25%;
+  font-size: 5rem;
 }
 
 .entry-box{
-    background-color: #ed2342;
-    width: 200px;
-    height: auto;
-    margin-left: 35px;
+  background-color: #ed2342;
+  width: 200px;
+  height: auto;
+  margin-left: 35px;
 }
 .toggle-div{
-    position: absolute;
+  position: absolute;
 }
 .info{
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
     
 }
 .info .pkmnNum {
-    margin-top: 0;
+  margin-top: 0;
 }
 .sprits{
-    background-color: white;
-    width: 150px;
-    height: 150px;
-  }
+  background-color: white;
+  width: 150px;
+  height: 150px;
+}
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 28px;
-    height: 14px;
-  }
-  
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #DDD;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 34px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 12px;
-    width: 12px;
-    left: 2px;
-    bottom: 1px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 50%;
-  }
-  
-  input:checked + .slider {
-    background-color: #3b4cca;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #3b4cca;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(13px);
-    -ms-transform: translateX(13px);
-    transform: translateX(13px);
-  }
 
-  .Pdexs{
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    display: flex;
-  }
+.Pdexs{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+}
 
-  .entry-box{
-    margin-bottom: 2rem;
-  }
-  
+.entry-box{
+  margin-bottom: 2rem;
+}
+
  
   
 
